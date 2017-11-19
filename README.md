@@ -12,7 +12,6 @@ $ npm i palipali
 #### NodeJS
 
 ```js
-
 const palipali = require('palipali');
 
 console.log(palipali("Anna")); // => true
@@ -23,7 +22,7 @@ console.log(palipali("No, tie it on.")); // => true
 #### Browser
 
 Load the script
-```html 
+```html
 <script async type="text/javascript" src="/path/to/palipali.js"></script>
 ```
 Then use the global palipali function.

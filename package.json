@@ -1,6 +1,6 @@
 {
   "name": "palipali",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if a word or sentence is a palindrome.",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevingimbel/palindrome.git"
+    "url": "git+https://github.com/kevingimbel/palipali.git"
   },
   "keywords": [
     "palindrome",
@@ -22,9 +22,9 @@
   "author": "Kevin Gimbel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kevingimbel/palindrome/issues"
+    "url": "https://github.com/kevingimbel/palipali/issues"
   },
-  "homepage": "https://github.com/kevingimbel/palindrome#readme",
+  "homepage": "https://github.com/kevingimbel/palipali#readme",
   "devDependencies": {
     "ava": "^0.23.0"
   }

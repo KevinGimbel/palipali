@@ -1,0 +1,31 @@
+{
+  "name": "palipali",
+  "version": "1.0.0",
+  "description": "Check if a word or sentence is a palindrome.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -v"
+  },
+  "ava": {
+    "files": [
+      "test/*.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevingimbel/palindrome.git"
+  },
+  "keywords": [
+    "palindrome",
+    "text"
+  ],
+  "author": "Kevin Gimbel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevingimbel/palindrome/issues"
+  },
+  "homepage": "https://github.com/kevingimbel/palindrome#readme",
+  "devDependencies": {
+    "ava": "^0.23.0"
+  }
+}

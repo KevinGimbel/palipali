@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>palipali Test</title>
+  <script src="../index.js"></script>
+</head>
+<body>
+  <ul class="output"></ul>
+</body>
+<script type="text/javascript">
+  (function(window, document, undefined) {
+    const el = document.querySelector('.output');
+
+    function makeResultElement(result) {
+      let e = document.createElement('li');
+      e.textContent = result;
+      return e;
+    }
+
+    let tests = [
+      {input: "Lagerregal", expect: true},
+      {input: "Anna", expect: true},
+      {input: "err", expect: false},
+      {input: "okay", expect: false},
+    ];
+
+    tests.map( test => {
+      let result = palipali(test.input);
+      let msg = `${result ? '✅' : '❌'} ${test.input}`
+      el.appendChild(makeResultElement(msg));
+    });
+  }(window, document));
+</script>
+</html>

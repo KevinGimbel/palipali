@@ -1,5 +1,6 @@
 # palipali
 > Checks if a string is a palindrome
+
 [![Build Status](https://travis-ci.org/kevingimbel/palipali.svg?branch=master)](https://travis-ci.org/kevingimbel/palipali)
 
 ### Install

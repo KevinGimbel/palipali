@@ -18,7 +18,7 @@ const palipali = require('palipali');
 
 console.log(palipali("Anna")); // => true
 console.log(palipali("Kayak")); // => true
-console.log(palipali("No, tie it on.")); // => true
+console.log(palipali("No, tie it on.")); // => false
 ```
 
 #### Browser
